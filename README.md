@@ -1,4 +1,4 @@
 # TimeClient
 Test repo for Travis CI builds
 
-https://travis-ci.org/RX-M/TimeClient.svg
+[![Build Status](https://travis-ci.org/RX-M/TimeClient.svg?branch=master)](https://travis-ci.org/RX-M/TimeClient)
