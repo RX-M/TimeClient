@@ -5,7 +5,7 @@
 import sys
 import socket
 
-def get_time(host='time.nist.gov', port=13):
+def get_time():
     """Returns the time string from the specified host:port"""
     buffersize = 1024
     soc = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
