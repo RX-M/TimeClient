@@ -9,7 +9,7 @@ def get_time(host='time.nist.gov', port=13):
     """Returns the time string from the specified host:port"""
     buffersize = 1024
     soc = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
-    soc.connect((host, port))
+    soc.connect(())
     data = soc.recv(buffersize)
     soc.close()
     return 'Received:' + data.decode()
